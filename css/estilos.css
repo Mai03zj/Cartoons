@@ -1,0 +1,53 @@
+/* aca incorporo reglas del boxmodel1 */
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.caja1{
+    width: 600px;
+    height: 600px;
+    background-color: pink;
+    margin: 10px;
+    padding: 10px 60px 10px 30px;
+    border: 2px violet solid;
+    background-image: url(/images/rosaa-removebg-preview.png);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position : center;
+
+    font-family: 'Amatic SC', cursive;
+
+    font-size: 45px;
+    color: azure;
+}
+
+
+h1{
+    font-family: 'Rock Salt', cursive; 
+    font-size: 120px;
+
+}
+.caja2{
+    width: 600px;
+    height: 600px;
+    background-color: rgb(255, 251, 0);
+    margin: 10px;
+    padding: 10px 60px 10px 30px;
+    border: 2px rgb(0, 0, 0) solid;
+    background-image: url(/images/bart.png);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position : center;
+
+    
+    font-family: 'Gochi Hand', cursive;
+}
+h3{
+    font-size: 55px;
+    width: 200px;
+    
+    
+}
